@@ -15,6 +15,8 @@ class MyAllures():
     @allure.severity(allure.severity_level.BLOCKER)
     def test_02(self):
         assert False
+    def test_03(self):
+        assert True
 # if __name__ == '__main__':
 #     pytest.main()
 #     os.system("allure generate --clean ./temp -o ./report/")
