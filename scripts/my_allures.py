@@ -20,6 +20,11 @@ class MyAllures():
     @allure.step(title='步骤4')
     def test_04(self):
         assert True
+
+    @allure.step(title='步骤5')
+    @allure.testcase('http://www.baidu.com')
+    def test_04(self):
+        assert True
 # if __name__ == '__main__':
 #     pytest.main()
 #     os.system("allure generate --clean ./temp -o ./report/")
