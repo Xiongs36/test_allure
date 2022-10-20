@@ -23,7 +23,7 @@ class MyAllures():
 
     @allure.step(title='步骤5')
     @allure.testcase('http://www.baidu.com')
-    def test_04(self):
+    def test_05(self):
         assert True
 # if __name__ == '__main__':
 #     pytest.main()
